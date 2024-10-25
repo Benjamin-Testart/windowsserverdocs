@@ -448,7 +448,7 @@ domain. These settings must be reconfigured, if you want to change them.
 
 - Set the shared CTL file location (HTTP or the FILE path):
 
-  - **Key**: `HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate\RootDirUrl`
+  - **Key**: `HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\AutoUpdate`
   - **Type**: `REG_SZ`
   - **Name**: `RootDirUrl`
   - **Data**: Enter a valid HTTP or file URI.
